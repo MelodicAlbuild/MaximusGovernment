@@ -1,0 +1,20 @@
+name: MaximusGovernment
+version: 1.0
+main: net.melodicalbuild.maximusgovernment.MaximusGovernment
+api-version: 1.17
+authors: [ MelodicAlbuild ]
+description: The Plugin for Enabling the Maximus Government
+
+commands:
+  govbc:
+    description: Government Broadcast System
+    usage: /govbc
+    permission: mev.gov.bc, mev.gov.*
+  gov:
+    description: Government Command System
+    usage: /gov <command>
+    permission: mev.gov.gov, mev.gov.*
+  vote:
+    description: Government Voting System
+    usage: /vote <choice>
+    permission: mev.gov.vote, mev.gov.*
