@@ -9,12 +9,12 @@ commands:
   govbc:
     description: Government Broadcast System
     usage: /govbc
-    permission: mev.gov.bc, mev.gov.*
+    permission: mev.gov.bc
   gov:
     description: Government Command System
     usage: /gov <command>
-    permission: mev.gov.gov, mev.gov.*
+    permission: mev.gov.gov
   vote:
     description: Government Voting System
     usage: /vote <choice>
-    permission: mev.gov.vote, mev.gov.*
+    permission: mev.gov.vote
