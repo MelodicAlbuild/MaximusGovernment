@@ -1,0 +1,9 @@
+name: MaximusGovernment
+version: '${project.version}'
+main: net.melodicalbuild.maximusgovernment.MaximusGovernment
+api-version: 1.18
+authors: [ MelodicAlbuild ]
+description: 1.18 Port of the Maximus Government Plugin
+
+depend:
+  - MaximusCore
