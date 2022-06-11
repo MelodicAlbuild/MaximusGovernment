@@ -17,7 +17,7 @@ public final class MaximusGovernment extends JavaPlugin {
         Objects.requireNonNull(this.getCommand("gov")).setExecutor(new Gov());
         Objects.requireNonNull(this.getCommand("vote")).setExecutor(new Vote());
 
-        MaximusCore.pluginManager.EnablePlugin(new GovernmentPlugin("1.0-Pre1", true));
+        MaximusCore.pluginManager.EnablePlugin(new GovernmentPlugin("1.0", false));
     }
 
     @Override
